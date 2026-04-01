@@ -77,12 +77,12 @@
                 </button>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-  <span class="carousel-control-prev-icon"></span>
-</button>
+                <span class="carousel-control-prev-icon"></span>
+            </button>
 
-<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-  <span class="carousel-control-next-icon"></span>
-</button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="assets/images/banner-img.jpg" class="d-block w-100" alt="Slide 1">
@@ -142,10 +142,13 @@
                         <h3 class="pt-4">Promyc 1.0</h3>
                         <p>Promyc® is in fact quite a boring ingredient neutral colour, taste, and smell.<br> But boring
                             doesn't
-                            necessarily mean a bad thing. Besides being neutral in <br>colour, taste, and smell, Promyc is a
-                            sustainable mycoprotein ingredient<br> that can be used to produce vegan food products and that
+                            necessarily mean a bad thing. Besides being neutral in <br>colour, taste, and smell, Promyc
+                            is a
+                            sustainable mycoprotein ingredient<br> that can be used to produce vegan food products and
+                            that
                             brings a
-                            great <br>source of fibre and protein, nutrition, and healthy vitamins while offering a<br> great
+                            great <br>source of fibre and protein, nutrition, and healthy vitamins while offering a<br>
+                            great
                             texture.
                         </p>
                     </div>
@@ -196,7 +199,8 @@
                 <div class="col-lg-6 col-md-12 make-text">
                     <div class="text-box">
                         <h4>What Can You Make with Promyc®?</h4>
-                        <p>Thanks to the features that Promyc® entails, it results in a versatile ingredient.<br> It can be
+                        <p>Thanks to the features that Promyc® entails, it results in a versatile ingredient.<br> It can
+                            be
                             used
                             in
                             various kinds of food applications with different tastes and flavours to meet growing
@@ -454,108 +458,125 @@
     </section>
     <!-- fifth-left-right-section-end -->
     <!-- footer -->
-        <footer class="footer-section text-white pt-5 pb-3 bg-dark">
-            <div class="container">
- 
-                <!-- TOP ROW -->
-                <div class="row gy-4 pb-5">
- 
-                    <!-- LEFT LOGO + SOCIAL -->
-                    <div class="col-lg-6 col-md-12 col-sm-12 ">
-                        <img src="assets/images/footerbrandname.png" class="footer-logo pb-5">
- 
-                        <div class="social-icons ">
-                            <i class="bi bi-linkedin"></i>
-                            <i class="bi bi-instagram"></i>
-                            <i class="bi bi-twitter"></i>
-                            <i class="bi bi-youtube"></i>
-                            <i class="bi bi-facebook"></i>
-                        </div>
+    <footer class="footer-section text-white pt-5 pb-3 bg-dark">
+        <div class="container">
+
+            <!-- TOP ROW -->
+            <div class="row gy-4 pb-5">
+
+                <!-- LEFT LOGO + SOCIAL -->
+                <div class="col-lg-6 col-md-12 col-sm-12 ">
+                    <img src="assets/images/footerbrandname.png" class="footer-logo pb-5">
+
+                    <div class="social-icons ">
+                        <i class="bi bi-linkedin"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-youtube"></i>
+                        <i class="bi bi-facebook"></i>
                     </div>
- 
-                    <!-- SUBSCRIBE -->
-                    <div class="col-lg-6 col-md-12 col-sm-12  ">
-                        <h6 class="footer-heading">SUBSCRIBE FOR OUR LATEST NEWS!</h6>
- 
-                        <div class="subscribe-box col-md-6 d-flex mb-3 ">
-                            <form action="#" method="post">
-                                <label for="email" class="visually-hidden ">Email address</label>
-                                <input type="email" id="email" name="email" placeholder="please Enter your email"
-                                    required>
- 
-                            </form>
-                            <div class=" p-2">
-                                <button type="submit" class="boder boder-white/50 bg-dark text-white rounded">Subscribe</button>
+                </div>
+
+                <!-- SUBSCRIBE -->
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <h6 class="footer-heading">SUBSCRIBE FOR OUR LATEST NEWS!</h6>
+
+                    <form class="needs-validation" method="post">
+
+                        <!-- Email + Button -->
+                        <div class="input-group mb-3 subscribe-box col-md-6">
+
+                            <input type="email" class="form-control bg-transparent text-white border-0 border-bottom"
+                                placeholder="Please enter your email" required>
+
+                            <button type="submit" class="btn btn-outline-light rounded">
+                                Subscribe
+                            </button>
+
+                            <!-- Email error -->
+                            <div class="invalid-feedback">
+                                Please enter a valid email.
                             </div>
                         </div>
- 
+
+                        <!-- Checkbox -->
                         <div class="form-check mt-2">
-                            <input class="form-check-input" type="checkbox">
-                            <label class="form-check-label small">
-                                I agree to the <a href="#" class="text-white text-decoration-none">terms and
-                                    conditions</a>
+                            <input class="form-check-input" type="checkbox" id="myCheck" required>
+
+                            <label class="form-check-label small text-white" for="myCheck">
+                                I agree to the
+                                <a href="#" class="text-white text-decoration-none">
+                                    terms and conditions
+                                </a>
                             </label>
+
+                            <!-- Checkbox error -->
+                            <div class="invalid-feedback">
+                                You must agree before submitting.
+                            </div>
                         </div>
-                    </div>
- 
+
+                    </form>
                 </div>
- 
-                <div class="row ">
-                    <div class="col-lg-3 col-md-6 col-sm-12 ">
-                        <p class="footer-text">
-                            Gamlestadsvagen 2 B27, 415 02<br>
-                            Gothenburg, Sweden
-                        </p>
- 
-                        <p class="small mb-1"> <i class="bi bi-telephone-plus-fill"></i>
-                            +46 761 791 293</p>
-                        <p class="small"> <i class="bi bi-envelope"></i>
-                            info@mycorena.com</p>
-                    </div>
- 
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <h6 class="footer-heading">MYCORENA</h6>
-                        <ul class="footer-links">
-                            <li>About Us</li>
-                            <li>Contact Us</li>
-                            <li>Press</li>
-                            <li>Privacy Policy</li>
-                            <li>Cookie Policy</li>
-                        </ul>
-                    </div>
- 
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <h6 class="footer-heading">SHORTCUTS</h6>
-                        <ul class="footer-links">
-                            <li>FAQ</li>
-                            <li>Promyc</li>
-                            <li>Technology</li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <h6 class="footer-heading ">CONNECT</h6>
-                        <ul class="footer-links">
-                            <li>Facebook</li>
-                            <li>Instagram</li>
-                            <li>LinkedIn</li>
-                            <li>Twitter</li>
-                            <li>YouTube</li>
-                        </ul>
-                    </div>
- 
-                </div>
- 
- 
- 
- 
-                <!-- COPYRIGHT -->
-                <div class="footer-bottom  pt-3">
-                    <p>Copyright © 2022 Mycorena</p>
-                </div>
- 
+
             </div>
-        </footer>
- 
+
+            <div class="row ">
+                <div class="col-lg-3 col-md-6 col-sm-12 ">
+                    <p class="footer-text">
+                        Gamlestadsvagen 2 B27, 415 02<br>
+                        Gothenburg, Sweden
+                    </p>
+
+                    <p class="small mb-1"> <i class="bi bi-telephone-plus-fill"></i>
+                        +46 761 791 293</p>
+                    <p class="small"> <i class="bi bi-envelope"></i>
+                        info@mycorena.com</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h6 class="footer-heading">MYCORENA</h6>
+                    <ul class="footer-links">
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                        <li>Press</li>
+                        <li>Privacy Policy</li>
+                        <li>Cookie Policy</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h6 class="footer-heading">SHORTCUTS</h6>
+                    <ul class="footer-links">
+                        <li>FAQ</li>
+                        <li>Promyc</li>
+                        <li>Technology</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h6 class="footer-heading ">CONNECT</h6>
+                    <ul class="footer-links">
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>LinkedIn</li>
+                        <li>Twitter</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+
+
+            <!-- COPYRIGHT -->
+            <div class="footer-bottom  pt-3">
+                <p>Copyright © 2022 Mycorena</p>
+            </div>
+
+        </div>
+    </footer>
+
 
 
 
