@@ -329,34 +329,24 @@ height: 100%;
   color: #ccc;
 }
 /*subscribe-btn*/
-.subscribe-box {
-  display: flex;
-  border-bottom: 1px solid #555;
-  padding-bottom: 5px;
+.form-check-input:checked {
+    background-color: #43e61a !important;
+    border-color: #43e61a !important;
+}
+.newsletter{
+  max-width: 350px;
+}
+.form-control:focus {
+  box-shadow: none;
 }
 
-.subscribe-box input {
-  background: transparent;
-  border: none;
-  outline: none;
-  color: white;
-  width: 100%;
-  font-size: 14px;
+.btn-outline-light {
+  border-radius: 8px;
 }
 
-.subscribe-box button {
-  background: transparent;
-  border: 1px solid white;
-  border-radius: 20px;
-  padding: 5px 15px;
-  color: white;
-  font-size: 12px;
-  margin-left: 10px;
-}
-
-.subscribe-box button:hover {
-  background: white;
-  color: black;
+.form-check-input {
+  background-color: transparent;
+  border: 1px solid #ccc;
 }
 
 .footer-top {
